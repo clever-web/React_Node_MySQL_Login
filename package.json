@@ -1,0 +1,19 @@
+{
+  "name": "login-backend",
+  "version": "1.0.0",
+  "description": "This is backend for login",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.22",
+    "sequelize": "^6.32.0"
+  }
+}
